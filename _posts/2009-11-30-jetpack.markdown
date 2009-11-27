@@ -4,7 +4,11 @@ layout: post
 title: Walkthrough with Jetpack
 ---
 
-# Jetpack krok po kroku
+<blockquote>
+<img src="../../../../images/jetpack-logo.png" alt="[Jetpack logo]" />
+</blockquote>
+
+# Przechadzka z Jetpackiem
 
 Instalujemy rozszerzenie ze strony 
 [Mozilla Labs Jetpack](https://jetpack.mozillalabs.com/)
