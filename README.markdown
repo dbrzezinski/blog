@@ -18,5 +18,5 @@ katalogu z blogiem, czyli z katalogu **~/public_git/sp/** polecenie:
 
 Po wykonaniu polecenia blog jest dostępny pod URI:
 
-<pre>http://sigma.inf.ug.edu.pl/~wbzyl/blog/
+<pre>http://inf.ug.edu.pl/~wbzyl/blog/
 </pre>
