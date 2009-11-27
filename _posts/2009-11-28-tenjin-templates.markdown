@@ -5,12 +5,10 @@ title: Tenjin Templates
 ---
 
 <blockquote>
-<img src="../../../../images/alan-perlis.gif" alt="[Alan Perlis]" />
+<img src="../../../../images/makoto-kuwata.jpg" alt="[Makoto Kuwata]" />
 <p>
-  Dealing with failure is easy: Work hard to improve. Success is also
-  easy to handle: You've solved the wrong problem. Work hard to improve.
+  Makoto Kuwata pracuje w <a href="http://theplant.jp/en">The Plant</a>
 </p>
-<p class="author">— Alan Perlis</p>
 </blockquote>
 
 # Szablony Tenjin

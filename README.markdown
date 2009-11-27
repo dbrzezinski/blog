@@ -12,7 +12,7 @@ Na przykład:
     2009-06-12-jekyll-howto.markdown
 
 Po napisaniu posta generujemy statyczną wersję bloga wykonując z
-katalogu z blogiem, czyli z katalogu **~/public_git/sp/** polecenie:
+katalogu z blogiem, czyli z katalogu **~/repos/blog/** polecenie:
 
     jekyll ~/public_html/blog
 

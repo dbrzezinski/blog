@@ -1,7 +1,12 @@
 ---
-published: false
+published: true
 layout: post
-title: Jetpack
+title: Walkthrough with Jetpack
 ---
 
-# Jetpack
+# Jetpack krok po kroku
+
+Instalujemy rozszerzenie ze strony 
+[Mozilla Labs Jetpack](https://jetpack.mozillalabs.com/)
+
+Dokumentacja, API etc. jest w **about:jetpack**.
