@@ -5,10 +5,9 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Włodek Bzyl</title>
- <link href="http://inf.ug.edu.pl/~wbzyl/atom.xml" rel="self"/>
- <link href="http://inf.ug.edu.pl/~wbzyl/"/>
+ <link href="http://wbzyl.inf.ug.edu.pl/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://inf.ug.edu.pl/~wbzyl/</id>
+ <id>http://wbzyl.inf.ug.edu.pl/</id>
  <author>
    <name>Włodek Bzyl</name>
    <email>matwb@univ.gda.pl</email>
