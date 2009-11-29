@@ -14,3 +14,54 @@ Instalujemy rozszerzenie ze strony
 [Mozilla Labs Jetpack](https://jetpack.mozillalabs.com/)
 
 Dokumentacja, API etc. jest w **about:jetpack**.
+
+
+## Trochę linków na początek
+
+* [Mozilla Labs «Jetpack»](https://mozillalabs.com/jetpack/)
+* [Mercurial repository](http://hg.mozilla.org/labs/jetpack/)
+* [Jetpack Gallery](http://jetpackgallery.mozillalabs.com/)
+* [Jetapck Wiki](https://wiki.mozilla.org/Labs/Jetpack/)
+
+
+## Dokumentacja
+
+* [API](https://wiki.mozilla.org/Labs/Jetpack/API)
+* [API](https://developer.mozilla.org/en/Jetpack):
+   - [basics](https://developer.mozilla.org/en/Jetpack/Basics): 
+   console, notification, tabs
+   - [extenders](https://developer.mozilla.org/en/Jetpack/Extenders):
+   libraries, future
+   - [ui](https://developer.mozilla.org/en/Jetpack/UI/Menu):
+   menu (dość dużo dokumentacji); `jetpack.future.import("menu");`;
+   slidebar `jetpack.future.import('slideBar')`
+* [Tutorial](https://jetpack.mozillalabs.com/tutorial.html)
+* [Jetpack Google Group](http://groups.google.com/group/mozilla-labs-jetpack)
+
+## Trochę przykładów
+
+* [GTranslatifier](http://jetpackgallery.mozillalabs.com/jetpacks/57) —
+  GTranslatifier makes translating text and web pages using 
+  Google Translate very easy.
+* [ReadingList](http://jetpackgallery.mozillalabs.com/jetpacks/150) —
+  Use this jetpack to save the url of the current tab to 
+  the slidebar for later reading.
+* [Clipboard Viewer](http://jetpackgallery.mozillalabs.com/jetpacks/148).
+
+
+## Ściąga
+
+Dokument:
+
+{{ highlight javascript }}
+var doc = jetpack.tabs.focused.contentDocument;
+$(doc).find('body')
+{{ highlight end }}
+
+Window:
+
+{{ highlight javascript }}
+var win = jetpack.tabs.focused.contentWindow;
+win.alert('hello');
+{{ highlight end }}
+
