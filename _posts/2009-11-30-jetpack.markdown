@@ -53,15 +53,15 @@ Dokumentacja, API etc. jest w **about:jetpack**.
 
 Dokument:
 
-{{ highlight javascript }}
+{% highlight js %}
 var doc = jetpack.tabs.focused.contentDocument;
 $(doc).find('body')
-{{ highlight end }}
+{% endhighlight %}
 
 Window:
 
-{{ highlight javascript }}
+{% highlight js %}
 var win = jetpack.tabs.focused.contentWindow;
 win.alert('hello');
-{{ highlight end }}
+{% endhighlight %}
 
